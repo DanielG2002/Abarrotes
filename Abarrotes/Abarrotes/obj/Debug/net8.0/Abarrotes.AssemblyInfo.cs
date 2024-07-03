@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Abarrotes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+053ddda628455d9ecccb7f8b8c1e0458b2480a97")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd2f47716ada1b3b14034833a6d24e388b1962d5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Abarrotes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Abarrotes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

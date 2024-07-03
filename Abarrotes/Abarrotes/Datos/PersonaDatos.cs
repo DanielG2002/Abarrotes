@@ -1,4 +1,13 @@
 ﻿using MySql.Data.MySqlClient;
+using Abarrotes.Models;
+using System.Data.SqlClient;
+using System.Data;
+
+using MySql.Data.MySqlClient;
+using System.Collections.Generic;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+
+using System.IO;
 
 namespace Abarrotes.Datos
 {
