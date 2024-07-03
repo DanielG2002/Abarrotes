@@ -1,0 +1,86 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <form>
+                <div class="form-group">
+                    <label for="imagen">Imagen:</label>
+                    <input type="file" class="form-control" id="imagen" name="imagen">
+                </div>
+                <div class="form-group">
+                    <label for="nombre">Nombre del Producto:</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre">
+                </div>
+                <div class="form-group">
+                    <label for="descripcion">Descripción:</label>
+                    <textarea class="form-control" id="descripcion" name="descripcion"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="marca">Marca:</label>
+                    <select class="form-control" id="marca" name="marca">
+                        <!-- Agrega las opciones del select según tus necesidades -->
+                        <option value="marca1">Marca 1</option>
+                        <option value="marca2">Marca 2</option>
+                        <option value="marca3">Marca 3</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="precio">Precio:</label>
+                    <input type="number" class="form-control" id="precio" name="precio">
+                </div>
+                <button type="submit" class="btn btn-primary">Registrar Producto</button>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <table class="table table-dark">
+                <thead>
+                    <tr>
+                        <th>VENDER</th>
+                        <th>PRODUCTO</th>
+                        <th>DESCRIPCION</th>
+                        <th>MARCA</th>
+                        <th>PRECIO</th>
+                        <th>IMAGEN</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#confirmModal">Vender</button>
+                            </td>
+                            <td>@item.Producto</td>
+                            <td>@item.Descripcion</td>
+                            <td>@item.Marca</td>
+                            <td>@item.Precio</td>
+                            <td>
+                                <img src="@item.Imagen" alt="Imagen" class="img-fluid" />
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="confirmModal" tabindex="-1" role="dialog" aria-labelledby="confirmModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="confirmModalLabel">Confirmar Venta</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ¿Estás seguro de que deseas realizar la venta?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary">Confirmar</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -72,7 +72,7 @@ namespace Abarrotes.Controllers
                     }
                     else
                     {
-                        TempData["Mensaje"] = "Usuario no encontrado";
+                        TempData["Mensaje"] = "Usuario no encontrado"; 
                     }
                 }
             }
