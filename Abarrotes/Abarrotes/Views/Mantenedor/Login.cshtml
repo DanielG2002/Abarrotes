@@ -1,0 +1,51 @@
+﻿@model AbarrotesModels
+
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body text-center">
+                    <nav class="navbar navbar-light bg-light">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#">
+                                Iniciar Sesión
+                            </a>
+                        </div>
+                    </nav>
+                    <img src="~/img/icono.jpg" alt="Logo" class="img-fluid rounded-circle">
+                    <form asp-action="Login" asp-controller="Mantenedor" method="post" onsubmit="mostrarAlerta()">
+                        <div class="mb-2">
+                            <label asp-for="Usuario" class="form-label">Usuario</label>
+                            <input asp-for="Usuario" type="text" class="form-control" />
+                        </div>
+                        <div class="mb-2">
+                            <label asp-for="Password" class="form-label">Contraseña</label>
+                            <input asp-for="Password" type="password" class="form-control" />
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@if (TempData["Mensaje"] != null)
+{
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            Swal.fire({
+                icon: 'error',
+                title: 'Error',
+                text: '@TempData["Mensaje"]',
+                confirmButtonText: 'OK'
+            });
+        });
+    </script>
+}
