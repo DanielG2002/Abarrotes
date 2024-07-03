@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|c:\\users\\brand\\onedrive\\escritorio\\abarrotes_proyecto\\abarrotes\\abarrotes\\datos\\personadatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|solutionrelative:abarrotes\\datos\\personadatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|c:\\users\\brand\\onedrive\\escritorio\\abarrotes_proyecto\\abarrotes\\abarrotes\\datos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|solutionrelative:abarrotes\\datos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,6 +31,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PersonaDatos.cs",
+              "DocumentMoniker": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\Datos\\PersonaDatos.cs",
+              "RelativeDocumentMoniker": "Abarrotes\\Datos\\PersonaDatos.cs",
+              "ToolTip": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\Datos\\PersonaDatos.cs",
+              "RelativeToolTip": "Abarrotes\\Datos\\PersonaDatos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T22:35:53.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Conexion.cs",
               "DocumentMoniker": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\Datos\\Conexion.cs",
               "RelativeDocumentMoniker": "Abarrotes\\Datos\\Conexion.cs",
@@ -39,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MantenedorController.cs",
               "DocumentMoniker": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\Controllers\\MantenedorController.cs",
               "RelativeDocumentMoniker": "Abarrotes\\Controllers\\MantenedorController.cs",
@@ -47,12 +64,11 @@
               "RelativeToolTip": "Abarrotes\\Controllers\\MantenedorController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T21:44:14.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T21:44:14.881Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\Program.cs",
               "RelativeDocumentMoniker": "Abarrotes\\Program.cs",
@@ -60,8 +76,7 @@
               "RelativeToolTip": "Abarrotes\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T21:09:33.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T21:09:33.313Z"
             }
           ]
         }
