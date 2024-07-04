@@ -232,3 +232,4 @@ C:\Users\brand\OneDrive\Escritorio\Abarrotes_Proyecto\Abarrotes\Abarrotes\obj\De
 C:\Users\brand\OneDrive\Escritorio\Abarrotes_Proyecto\Abarrotes\Abarrotes\obj\Debug\net8.0\Abarrotes.pdb
 C:\Users\brand\OneDrive\Escritorio\Abarrotes_Proyecto\Abarrotes\Abarrotes\obj\Debug\net8.0\Abarrotes.genruntimeconfig.cache
 C:\Users\brand\OneDrive\Escritorio\Abarrotes_Proyecto\Abarrotes\Abarrotes\obj\Debug\net8.0\ref\Abarrotes.dll
+C:\Users\brand\OneDrive\Escritorio\Abarrotes_Proyecto\Abarrotes\Abarrotes\obj\Debug\net8.0\Abarrotes.sourcelink.json
