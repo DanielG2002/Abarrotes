@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "Abarrotes\\Views\\Mantenedor\\Abarrote.cshtml",
               "ToolTip": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\Views\\Mantenedor\\Abarrote.cshtml",
               "RelativeToolTip": "Abarrotes\\Views\\Mantenedor\\Abarrote.cshtml",
-              "ViewState": "AQIAADQAAAAAAAAAAAAQwFUAAAAGAAAA",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAQwGQAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-03T23:27:26.087Z",
               "EditorCaption": ""
@@ -67,8 +67,7 @@
               "RelativeToolTip": "Abarrotes\\Views\\Mantenedor\\Login.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-03T23:07:53.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T23:07:53.418Z"
             },
             {
               "$type": "Document",
@@ -140,8 +139,7 @@
               "RelativeToolTip": "Abarrotes\\Models\\AbarrotesModels.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAQwAMAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T22:41:37.544Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T22:41:37.544Z"
             }
           ]
         }
