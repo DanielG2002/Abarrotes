@@ -35,7 +35,7 @@ namespace Abarrotes.Datos
                             Descripcion = reader["descripcion"].ToString(),
                             Marca = reader["marca"].ToString(),
                             Precio = reader["precio"].ToString(),
-                            Imagen = reader["imagen"].ToString()
+                            Imagen = "/Images/" + reader["imagen"].ToString()
                         };
 
                         oListaProductos.Add(producto);
@@ -46,5 +46,7 @@ namespace Abarrotes.Datos
             return oListaProductos;
         }
 
+
+    
     }
 }

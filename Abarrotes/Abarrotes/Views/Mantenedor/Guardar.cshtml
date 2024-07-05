@@ -1,0 +1,42 @@
+﻿@*
+    Para obtener más información sobre cómo habilitar MVC para proyectos vacíos, visita https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@{
+}
+
+@model AbarrotesModels
+
+@{
+    ViewData["Title"] = "Guardar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form asp-action="Guardar" asp-controller="Mantenedor" method="post">
+    <div class="form-group">
+        <label for="nombre">Nombre del Producto:</label>
+        <input asp-for="Producto" type="text" class="form-control small-input">
+    </div>
+    <div class="form-group">
+        <label for="descripcion">Descripción:</label>
+        <textarea asp-for="Descripcion" class="form-control small-input"></textarea>
+    </div>
+    <div class="form-group">
+        <label for="marca">Marca:</label>
+        <select asp-for="Marca" class="form-control small-input">
+            <!-- Agrega las opciones del select según tus necesidades -->
+            <option value="marca1">Marca 1</option>
+            <option value="marca2">Marca 2</option>
+            <option value="marca3">Marca 3</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="precio">Precio:</label>
+        <input asp-for="Precio" type="number" class="form-control small-input">
+    </div>
+    <div class="form-group">
+        <label for="imagen">Imagen:</label>
+        <input asp-for="Imagen" type="file" class="form-control small-input">
+    </div>
+    <button type="submit" class="btn btn-primary">Registrar Producto</button>
+</form>

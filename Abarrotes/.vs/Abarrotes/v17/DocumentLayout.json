@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|c:\\users\\brand\\onedrive\\escritorio\\abarrotes_proyecto\\abarrotes\\abarrotes\\views\\mantenedor\\abarrote.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|solutionrelative:abarrotes\\views\\mantenedor\\abarrote.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|c:\\users\\brand\\onedrive\\escritorio\\abarrotes_proyecto\\abarrotes\\abarrotes\\models\\abarrotesmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|solutionrelative:abarrotes\\models\\abarrotesmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|c:\\users\\brand\\onedrive\\escritorio\\abarrotes_proyecto\\abarrotes\\abarrotes\\views\\mantenedor\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|solutionrelative:abarrotes\\views\\mantenedor\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|c:\\users\\brand\\onedrive\\escritorio\\abarrotes_proyecto\\abarrotes\\abarrotes\\abarrotes.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|solutionrelative:abarrotes\\abarrotes.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|c:\\users\\brand\\onedrive\\escritorio\\abarrotes_proyecto\\abarrotes\\abarrotes\\controllers\\mantenedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|solutionrelative:abarrotes\\controllers\\mantenedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|c:\\users\\brand\\onedrive\\escritorio\\abarrotes_proyecto\\abarrotes\\abarrotes\\datos\\personadatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|solutionrelative:abarrotes\\datos\\personadatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|c:\\users\\brand\\onedrive\\escritorio\\abarrotes_proyecto\\abarrotes\\abarrotes\\views\\mantenedor\\abarrote.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|solutionrelative:abarrotes\\views\\mantenedor\\abarrote.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|c:\\users\\brand\\onedrive\\escritorio\\abarrotes_proyecto\\abarrotes\\abarrotes\\views\\mantenedor\\guardar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|solutionrelative:abarrotes\\views\\mantenedor\\guardar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|c:\\users\\brand\\onedrive\\escritorio\\abarrotes_proyecto\\abarrotes\\abarrotes\\models\\abarrotesmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|solutionrelative:abarrotes\\models\\abarrotesmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|c:\\users\\brand\\onedrive\\escritorio\\abarrotes_proyecto\\abarrotes\\abarrotes\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|solutionrelative:abarrotes\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|c:\\users\\brand\\onedrive\\escritorio\\abarrotes_proyecto\\abarrotes\\abarrotes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|solutionrelative:abarrotes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|c:\\users\\brand\\onedrive\\escritorio\\abarrotes_proyecto\\abarrotes\\abarrotes\\views\\mantenedor\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|solutionrelative:abarrotes\\views\\mantenedor\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|c:\\users\\brand\\onedrive\\escritorio\\abarrotes_proyecto\\abarrotes\\abarrotes\\datos\\personadatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|solutionrelative:abarrotes\\datos\\personadatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|c:\\users\\brand\\onedrive\\escritorio\\abarrotes_proyecto\\abarrotes\\abarrotes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|solutionrelative:abarrotes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{396A08E1-EB8B-4AF3-A45F-671F0481C0C6}|Abarrotes\\Abarrotes.csproj|c:\\users\\brand\\onedrive\\escritorio\\abarrotes_proyecto\\abarrotes\\abarrotes\\datos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,43 +55,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Abarrotes",
+              "DocumentMoniker": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\Abarrotes.csproj",
+              "RelativeDocumentMoniker": "Abarrotes\\Abarrotes.csproj",
+              "ToolTip": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\Abarrotes.csproj",
+              "RelativeToolTip": "Abarrotes\\Abarrotes.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-04T06:12:53.757Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Guardar.cshtml",
+              "DocumentMoniker": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\Views\\Mantenedor\\Guardar.cshtml",
+              "RelativeDocumentMoniker": "Abarrotes\\Views\\Mantenedor\\Guardar.cshtml",
+              "ToolTip": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\Views\\Mantenedor\\Guardar.cshtml",
+              "RelativeToolTip": "Abarrotes\\Views\\Mantenedor\\Guardar.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T05:30:43.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Abarrote.cshtml",
               "DocumentMoniker": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\Views\\Mantenedor\\Abarrote.cshtml",
               "RelativeDocumentMoniker": "Abarrotes\\Views\\Mantenedor\\Abarrote.cshtml",
               "ToolTip": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\Views\\Mantenedor\\Abarrote.cshtml",
               "RelativeToolTip": "Abarrotes\\Views\\Mantenedor\\Abarrote.cshtml",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAQwGQAAAAHAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAQwEAAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-03T23:27:26.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\Views\\Mantenedor\\Login.cshtml",
-              "RelativeDocumentMoniker": "Abarrotes\\Views\\Mantenedor\\Login.cshtml",
-              "ToolTip": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\Views\\Mantenedor\\Login.cshtml",
-              "RelativeToolTip": "Abarrotes\\Views\\Mantenedor\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-03T23:07:53.418Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "MantenedorController.cs",
               "DocumentMoniker": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\Controllers\\MantenedorController.cs",
               "RelativeDocumentMoniker": "Abarrotes\\Controllers\\MantenedorController.cs",
               "ToolTip": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\Controllers\\MantenedorController.cs",
               "RelativeToolTip": "Abarrotes\\Controllers\\MantenedorController.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAgwFIAAAABAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAAEkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T23:03:24.081Z"
+              "WhenOpened": "2024-07-03T23:03:24.081Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Abarrotes\\Views\\Shared\\_Layout.cshtml",
@@ -91,23 +114,25 @@
               "RelativeToolTip": "Abarrotes\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-03T22:56:43.801Z"
+              "WhenOpened": "2024-07-03T22:56:43.801Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "PersonaDatos.cs",
               "DocumentMoniker": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\Datos\\PersonaDatos.cs",
               "RelativeDocumentMoniker": "Abarrotes\\Datos\\PersonaDatos.cs",
               "ToolTip": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\Datos\\PersonaDatos.cs",
               "RelativeToolTip": "Abarrotes\\Datos\\PersonaDatos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAZAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwCUAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T22:35:53.299Z"
+              "WhenOpened": "2024-07-03T22:35:53.299Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Conexion.cs",
               "DocumentMoniker": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\Datos\\Conexion.cs",
               "RelativeDocumentMoniker": "Abarrotes\\Datos\\Conexion.cs",
@@ -115,11 +140,12 @@
               "RelativeToolTip": "Abarrotes\\Datos\\Conexion.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T22:28:56.852Z"
+              "WhenOpened": "2024-07-03T22:28:56.852Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\Program.cs",
               "RelativeDocumentMoniker": "Abarrotes\\Program.cs",
@@ -127,19 +153,34 @@
               "RelativeToolTip": "Abarrotes\\Program.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAAgAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T21:09:33.313Z"
+              "WhenOpened": "2024-07-03T21:09:33.313Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "AbarrotesModels.cs",
               "DocumentMoniker": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\Models\\AbarrotesModels.cs",
               "RelativeDocumentMoniker": "Abarrotes\\Models\\AbarrotesModels.cs",
               "ToolTip": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\Models\\AbarrotesModels.cs",
               "RelativeToolTip": "Abarrotes\\Models\\AbarrotesModels.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAMAAAAaAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAzwB0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T22:41:37.544Z"
+              "WhenOpened": "2024-07-03T22:41:37.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\Views\\Mantenedor\\Login.cshtml",
+              "RelativeDocumentMoniker": "Abarrotes\\Views\\Mantenedor\\Login.cshtml",
+              "ToolTip": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\Views\\Mantenedor\\Login.cshtml",
+              "RelativeToolTip": "Abarrotes\\Views\\Mantenedor\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T23:07:53.418Z",
+              "EditorCaption": ""
             }
           ]
         }
