@@ -7,6 +7,11 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "Abarrotes/1.0.0": {
+<<<<<<< HEAD
+        "runtime": {
+          "Abarrotes.dll": {}
+        }
+=======
         "dependencies": {
           "Microsoft.AspNetCore.StaticFiles": "2.2.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.2",
@@ -1690,6 +1695,7 @@
             "fileVersion": "0.8.0.0"
           }
         }
+>>>>>>> Development
       }
     }
   },
@@ -1698,6 +1704,8 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+<<<<<<< HEAD
+=======
     },
     "BouncyCastle.Cryptography/2.3.1": {
       "type": "package",
@@ -2748,6 +2756,7 @@
       "sha512": "sha512-Z62eNBIu8E8YtbqlMy57tK3dV1+m2b9NhPeaYovB5exmLKvrGCqOhJTzrEUH5VyUWU6vwX3c1XHJGhW5HVs8dA==",
       "path": "zstdsharp.port/0.8.0",
       "hashPath": "zstdsharp.port.0.8.0.nupkg.sha512"
+>>>>>>> Development
     }
   }
 }
