@@ -11,8 +11,8 @@
     ViewData["Title"] = "Guardar";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
-<form asp-action="Guardar" asp-controller="Mantenedor" method="post">
+ 
+ <form asp-action="Guardar" asp-controller="Mantenedor" method="post" enctype="multipart/form-data">
     <div class="form-group">
         <label for="nombre">Nombre del Producto:</label>
         <input asp-for="Producto" type="text" class="form-control small-input">

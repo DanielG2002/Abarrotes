@@ -27,6 +27,17 @@ namespace Abarrotes.Controllers
         [HttpPost]
         public bool Guardar(AbarrotesModels oAbarrotes, IFormFile imagen, [FromServices] IWebHostEnvironment env)
         {
+            string nombreArchivo = Path.GetFileName(imagen.FileName);
+            string rutaImagen = Path.Combine(env.WebRootPath, "Images", nombreArchivo);
+            string rutaImagenRelativa = Path.Combine("Images", nombreArchivo);
+
+            using (var fileStream = new FileStream(rutaImagen, FileMode.Create))
+            {
+                imagen.CopyTo(fileStream);
+            }
+
+            oAbarrotes.Imagen = rutaImagenRelativa;  // Solo guardamos la ruta relativa en la variable oAbarrotes.Imagen
+
             bool rpta;
 
             try
@@ -34,20 +45,6 @@ namespace Abarrotes.Controllers
                 using (var conexion = new MySqlConnection(connectionString))
                 {
                     conexion.Open();
-
-                    if (imagen != null && imagen.Length > 0)
-                    {
-                        string nombreArchivo = Path.GetFileName(imagen.FileName);
-                        string rutaImagen = Path.Combine(env.WebRootPath, "Images", nombreArchivo);
-                        string rutaImagenRelativa = Path.Combine("Images", nombreArchivo);
-
-                        using (var fileStream = new FileStream(rutaImagen, FileMode.Create))
-                        {
-                            imagen.CopyTo(fileStream);
-                        }
-
-                        oAbarrotes.Imagen = "/" + rutaImagenRelativa;
-                    }
 
                     // Resto del código para guardar los datos del producto en la base de datos
                     MySqlCommand cmd = new MySqlCommand("sp_add_productos", conexion);

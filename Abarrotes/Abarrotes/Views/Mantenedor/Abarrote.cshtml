@@ -1,6 +1,4 @@
-﻿ 
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -30,7 +28,6 @@
     <div class="container my-container">
         <div class="row">
             <div class="col-md-6">
-        
             </div>
             <div class="col-md-6">
                 <div class="table-responsive">
@@ -60,9 +57,7 @@
                                     <td>@item.Marca</td>
                                     <td>@item.Precio</td>
                                     <td>
-                                    <td>
-                                        <img src="@item.Imagen" alt="Imagen del producto" />
-                                    </td>
+                                        <img src="@Url.Content(item.Imagen)" alt="Imagen del producto" />
                                     </td>
                                 </tr>
                             }

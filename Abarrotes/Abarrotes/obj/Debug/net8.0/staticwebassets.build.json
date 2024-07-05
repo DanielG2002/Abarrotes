@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Vzn/unW1+THi8VA/O7/QetEeniWIHlXHQy5JLQWM4Gk=",
+  "Hash": "iv/0FjL2hpZEY1aXDsUZnErpqollM2FKbxkyR8B5FfM=",
   "Source": "Abarrotes",
   "BasePath": "_content/Abarrotes",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\tablero.png"
+    },
+    {
+      "Identity": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\wwwroot\\Images\\WhatsApp_Image_2024-06-11_at_9.55.08_PM-removebg-preview (1).png",
+      "SourceId": "Abarrotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\wwwroot\\",
+      "BasePath": "_content/Abarrotes",
+      "RelativePath": "Images/WhatsApp_Image_2024-06-11_at_9.55.08_PM-removebg-preview (1).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\WhatsApp_Image_2024-06-11_at_9.55.08_PM-removebg-preview (1).png"
     },
     {
       "Identity": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\wwwroot\\js\\site.js",
