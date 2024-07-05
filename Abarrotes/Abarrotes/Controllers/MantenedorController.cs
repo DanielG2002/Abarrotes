@@ -29,14 +29,14 @@ namespace Abarrotes.Controllers
         {
             string nombreArchivo = Path.GetFileName(imagen.FileName);
             string rutaImagen = Path.Combine(env.WebRootPath, "Images", nombreArchivo);
-            string rutaImagenRelativa = Path.Combine("Images", nombreArchivo);
+            string nombreArchivoSinExtension = Path.GetFileNameWithoutExtension(nombreArchivo);
 
             using (var fileStream = new FileStream(rutaImagen, FileMode.Create))
             {
                 imagen.CopyTo(fileStream);
             }
 
-            oAbarrotes.Imagen = rutaImagenRelativa;  // Solo guardamos la ruta relativa en la variable oAbarrotes.Imagen
+            oAbarrotes.Imagen = nombreArchivoSinExtension + ".png";
 
             bool rpta;
 

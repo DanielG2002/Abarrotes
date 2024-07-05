@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iv/0FjL2hpZEY1aXDsUZnErpqollM2FKbxkyR8B5FfM=",
+  "Hash": "zkoGtbQkn0R4ludI2x+ltuz0Fidh7/gYKbjCqXKuFj0=",
   "Source": "Abarrotes",
   "BasePath": "_content/Abarrotes",
   "Mode": "Default",
@@ -112,12 +112,12 @@
       "OriginalItemSpec": "wwwroot\\Images\\equisroja.png"
     },
     {
-      "Identity": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\wwwroot\\Images\\tablero.png",
+      "Identity": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\wwwroot\\Images\\R.png",
       "SourceId": "Abarrotes",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\wwwroot\\",
       "BasePath": "_content/Abarrotes",
-      "RelativePath": "Images/tablero.png",
+      "RelativePath": "Images/R.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,15 +128,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\tablero.png"
+      "OriginalItemSpec": "wwwroot\\Images\\R.png"
     },
     {
-      "Identity": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\wwwroot\\Images\\WhatsApp_Image_2024-06-11_at_9.55.08_PM-removebg-preview (1).png",
+      "Identity": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\wwwroot\\Images\\R.png.png",
       "SourceId": "Abarrotes",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\wwwroot\\",
       "BasePath": "_content/Abarrotes",
-      "RelativePath": "Images/WhatsApp_Image_2024-06-11_at_9.55.08_PM-removebg-preview (1).png",
+      "RelativePath": "Images/R.png.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -147,7 +147,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\WhatsApp_Image_2024-06-11_at_9.55.08_PM-removebg-preview (1).png"
+      "OriginalItemSpec": "wwwroot\\Images\\R.png.png"
+    },
+    {
+      "Identity": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\wwwroot\\Images\\taza2.jpg",
+      "SourceId": "Abarrotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\wwwroot\\",
+      "BasePath": "_content/Abarrotes",
+      "RelativePath": "Images/taza2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\taza2.jpg"
     },
     {
       "Identity": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\wwwroot\\js\\site.js",
