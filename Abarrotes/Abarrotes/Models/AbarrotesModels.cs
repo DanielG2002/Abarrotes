@@ -2,11 +2,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Abarrotes.Models
 {
     public class AbarrotesModels : IEnumerable
     {
+ 
+ 
+              public int ID { get; set; }
+        public int Id_Usuario  { get; set; }
+        public int id_venta { get; set; }
+
         [Required]
         public string? Usuario { get; set; }
 
@@ -28,8 +35,7 @@ namespace Abarrotes.Models
         [Required]
         [DataType(DataType.Upload)]
         public string? Imagen { get; set; }
-
-        // Implementación de la interfaz IEnumerable
+         
         public IEnumerator GetEnumerator()
         {
             yield return this;

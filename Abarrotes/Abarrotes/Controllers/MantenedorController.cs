@@ -25,7 +25,7 @@ namespace Abarrotes.Controllers
           return View();
         }
         [HttpPost]
-        public bool Guardar(AbarrotesModels oAbarrotes, IFormFile imagen, [FromServices] IWebHostEnvironment env)
+        public ActionResult Guardar(AbarrotesModels oAbarrotes, IFormFile imagen, [FromServices] IWebHostEnvironment env)
         {
             string nombreArchivo = Path.GetFileName(imagen.FileName);
             string rutaImagen = Path.Combine(env.WebRootPath, "Images", nombreArchivo);
@@ -46,7 +46,6 @@ namespace Abarrotes.Controllers
                 {
                     conexion.Open();
 
-                    // Resto del código para guardar los datos del producto en la base de datos
                     MySqlCommand cmd = new MySqlCommand("sp_add_productos", conexion);
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.AddWithValue("@producto", oAbarrotes.Producto);
@@ -58,7 +57,8 @@ namespace Abarrotes.Controllers
                     cmd.ExecuteNonQuery();
                 }
 
-                rpta = true;
+                return RedirectToAction("Abarrote", "Mantenedor");
+
             }
             catch (Exception e)
             {
@@ -66,7 +66,8 @@ namespace Abarrotes.Controllers
                 rpta = false;
             }
 
-            return rpta;
+            // Si deseas mantener el tipo de retorno como bool, puedes devolver false aquí
+            return RedirectToAction(" ", "Mantenedor");
         }
         public IActionResult Login()
         {
@@ -112,18 +113,16 @@ namespace Abarrotes.Controllers
                 {
                     if (reader.Read())
                     {
-
-
                         return RedirectToAction("Abarrote", "Mantenedor");
                     }
                     else
                     {
-                        TempData["Mensaje"] = "Usuario no encontrado"; 
+                        TempData["Mensaje"] = "Usuario no encontrado";
+                        return RedirectToAction("Login", "Mantenedor"); 
                     }
+
                 }
             }
-
-            return RedirectToAction("Login", "Mantenedor");
-        } 
+        }
     }
 }

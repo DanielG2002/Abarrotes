@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zkoGtbQkn0R4ludI2x+ltuz0Fidh7/gYKbjCqXKuFj0=",
+  "Hash": "Wf7QptRfW91n8Dy0zVcapZIWKp+7dChL6/emnDHhVdI=",
   "Source": "Abarrotes",
   "BasePath": "_content/Abarrotes",
   "Mode": "Default",
@@ -93,12 +93,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\wwwroot\\Images\\equisroja.png",
+      "Identity": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\wwwroot\\Images\\coca.png",
       "SourceId": "Abarrotes",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\wwwroot\\",
       "BasePath": "_content/Abarrotes",
-      "RelativePath": "Images/equisroja.png",
+      "RelativePath": "Images/coca.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,15 +109,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\equisroja.png"
+      "OriginalItemSpec": "wwwroot\\Images\\coca.png"
     },
     {
-      "Identity": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\wwwroot\\Images\\R.png",
+      "Identity": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\wwwroot\\Images\\logo.jpg",
       "SourceId": "Abarrotes",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\wwwroot\\",
       "BasePath": "_content/Abarrotes",
-      "RelativePath": "Images/R.png",
+      "RelativePath": "Images/logo.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,45 +128,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\R.png"
-    },
-    {
-      "Identity": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\wwwroot\\Images\\R.png.png",
-      "SourceId": "Abarrotes",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\wwwroot\\",
-      "BasePath": "_content/Abarrotes",
-      "RelativePath": "Images/R.png.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\R.png.png"
-    },
-    {
-      "Identity": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\wwwroot\\Images\\taza2.jpg",
-      "SourceId": "Abarrotes",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\wwwroot\\",
-      "BasePath": "_content/Abarrotes",
-      "RelativePath": "Images/taza2.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\taza2.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\logo.jpg"
     },
     {
       "Identity": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\wwwroot\\js\\site.js",

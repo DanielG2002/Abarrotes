@@ -1,42 +1,159 @@
-﻿@*
-    Para obtener más información sobre cómo habilitar MVC para proyectos vacíos, visita https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guardar</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color:black;
+        }
 
-@{
-}
+        .container {
+            max-width: 400px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
 
-@model AbarrotesModels
+        .form-group {
+            margin-bottom: 20px;
+        }
 
-@{
-    ViewData["Title"] = "Guardar";
-    Layout = "~/Views/Shared/_Layout.cshtml";
-}
- 
- <form asp-action="Guardar" asp-controller="Mantenedor" method="post" enctype="multipart/form-data">
-    <div class="form-group">
-        <label for="nombre">Nombre del Producto:</label>
-        <input asp-for="Producto" type="text" class="form-control small-input">
+        .form-control {
+            width: 100%;
+            padding: 8px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            color: #333;
+        }
+
+            .form-control:focus {
+                color: #007bff;
+            }
+
+        .small-input {
+            width: 100%;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            font-size: 14px;
+            border-radius: 4px;
+        }
+
+        .preview-container {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .preview-image {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin-left: 10px;
+        }
+
+        .note {
+            color: red;
+            font-size: 12px;
+            margin-top: 5px;
+        }
+
+        .form-label {
+            color: #007bff;
+            font-weight: bold;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="/Mantenedor/Guardar" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="nombre" class="form-label">Nombre del Producto:</label>
+                <input name="Producto" type="text" class="form-control small-input">
+            </div>
+            <div class="form-group">
+                <label for="descripcion" class="form-label">Descripción:</label>
+                <textarea name="Descripcion" class="form-control small-input"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="marca" class="form-label">Marca:</label>
+                <select name="Marca" class="form-control small-input">
+                   
+                    <option value=" Coca-Cola" disabled">--Selecciona una opcion--</option>
+                    <option value="Coca-Cola">Coca-Cola</option>
+                    <option value="Pepsi">Pepsi</option>
+                    <option value="Nestlé">Nestlé</option>
+                    <option value="Kellogg's">Kellogg's</option>
+                    <option value="Mars">Mars</option>
+                    <option value="Danone">Danone</option>
+                    <option value="Heinz">Heinz</option>
+                    <option value="McDonald's">McDonald's</option>
+                    <option value="Starbucks">Starbucks</option>
+                    <option value="Ben & Jerry's">Ben & Jerry's</option>
+
+
+                    <option value="Nike">Nike</option>
+                    <option value="Adidas">Adidas</option>
+                    <option value="Zara">Zara</option>
+                    <option value="H&M">H&M</option>
+                    <option value="Gucci">Gucci</option>
+                    <option value="Levi's">Levi's</option>
+                    <option value="Calvin Klein">Calvin Klein</option>
+                    <option value="Tommy Hilfiger">Tommy Hilfiger</option>
+                    <option value="Ralph Lauren">Ralph Lauren</option>
+                    <option value="Victoria's Secret">Victoria's Secret</option>
+
+
+                    <option value="Apple">Apple</option>
+                    <option value="Samsung">Samsung</option>
+                    <option value="Sony">Sony</option>
+                    <option value="LG">LG</option>
+                    <option value="Huawei">Huawei</option>
+                    <option value="Xiaomi">Xiaomi</option>
+                    <option value="Panasonic">Panasonic</option>
+                    <option value="Philips">Philips</option>
+                    <option value="Bose">Bose</option>
+                    <option value="JBL">JBL</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="precio" class="form-label">Precio:</label>
+                <input name="Precio" type="number" class="form-control small-input">
+            </div>
+            <div class="form-group">
+                <label for="imagen" class="form-label">Imagen:</label>
+                <input name="Imagen" type="file" accept=".png" class="form-control small-input" onchange="previewImage(event)">
+                <div class="preview-container">
+                    <img id="preview" class="preview-image" src="#" alt="Preview">
+                </div>
+                <div class="note">Solo se aceptan imágenes en formato PNG.</div>
+            </div>
+            <button type="submit" class="btn btn-primary">Registrar Producto</button>
+        </form>
     </div>
-    <div class="form-group">
-        <label for="descripcion">Descripción:</label>
-        <textarea asp-for="Descripcion" class="form-control small-input"></textarea>
-    </div>
-    <div class="form-group">
-        <label for="marca">Marca:</label>
-        <select asp-for="Marca" class="form-control small-input">
-            <!-- Agrega las opciones del select según tus necesidades -->
-            <option value="marca1">Marca 1</option>
-            <option value="marca2">Marca 2</option>
-            <option value="marca3">Marca 3</option>
-        </select>
-    </div>
-    <div class="form-group">
-        <label for="precio">Precio:</label>
-        <input asp-for="Precio" type="number" class="form-control small-input">
-    </div>
-    <div class="form-group">
-        <label for="imagen">Imagen:</label>
-        <input asp-for="Imagen" type="file" class="form-control small-input">
-    </div>
-    <button type="submit" class="btn btn-primary">Registrar Producto</button>
-</form>
+
+    <script>
+        function previewImage(event) {
+            var input = event.target;
+            var reader = new FileReader();
+            reader.onload = function () {
+                var preview = document.getElementById('preview');
+                preview.src = reader.result;
+            };
+            reader.readAsDataURL(input.files[0]);
+        }
+    </script>
+</body>
+</html>
