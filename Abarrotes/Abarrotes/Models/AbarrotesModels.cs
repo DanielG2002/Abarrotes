@@ -35,8 +35,7 @@ namespace Abarrotes.Models
         [Required]
         [DataType(DataType.Upload)]
         public string? Imagen { get; set; }
-
-        // Implementación de la interfaz IEnumerable
+         
         public IEnumerator GetEnumerator()
         {
             yield return this;

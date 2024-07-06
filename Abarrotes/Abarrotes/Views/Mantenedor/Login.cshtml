@@ -5,6 +5,16 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+<style>
+    body {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+</style>
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-3">
@@ -17,7 +27,7 @@
                             </a>
                         </div>
                     </nav>
-                    <img src="~/img/icono.jpg" alt="Logo" class="img-fluid rounded-circle">
+                    <img src="~/Images/logo.jpg" alt="Logo" class="img-fluid rounded-circle">
                     <form asp-action="Login" asp-controller="Mantenedor" method="post" onsubmit="mostrarAlerta()">
                         <div class="mb-2">
                             <label asp-for="Usuario" class="form-label">Usuario</label>
@@ -28,24 +38,28 @@
                             <input asp-for="Password" type="password" class="form-control" />
                         </div>
 
-                        <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+                        <button type="submit" class="btn btn-dark">Iniciar sesión</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
+ 
 @if (TempData["Mensaje"] != null)
 {
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
+        function mostrarAlerta() {
             Swal.fire({
                 icon: 'error',
-                title: 'Error',
+                title: 'Erroriii',
                 text: '@TempData["Mensaje"]',
-                confirmButtonText: 'OK'
+                confirmButtonText: 'OK',
+                timer: 5000, // Duración en milisegundos (en este ejemplo, 5 segundos)
+                timerProgressBar: true, // Muestra una barra de progreso durante el tiempo de duración
+                allowOutsideClick: false, // Evita que el usuario cierre la alerta haciendo clic fuera de ella
+                allowEscapeKey: false // Evita que el usuario cierre la alerta presionando la tecla Esc
             });
-        });
+        }
     </script>
 }
