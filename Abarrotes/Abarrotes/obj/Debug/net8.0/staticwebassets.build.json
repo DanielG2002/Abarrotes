@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zkoGtbQkn0R4ludI2x+ltuz0Fidh7/gYKbjCqXKuFj0=",
+  "Hash": "CKlgvD/RG3WKOcJ0TXWqQEFbp1eoohCD3vsA7tsMOHU=",
   "Source": "Abarrotes",
   "BasePath": "_content/Abarrotes",
   "Mode": "Default",
@@ -129,25 +129,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\R.png"
-    },
-    {
-      "Identity": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\wwwroot\\Images\\R.png.png",
-      "SourceId": "Abarrotes",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\wwwroot\\",
-      "BasePath": "_content/Abarrotes",
-      "RelativePath": "Images/R.png.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\R.png.png"
     },
     {
       "Identity": "C:\\Users\\brand\\OneDrive\\Escritorio\\Abarrotes_Proyecto\\Abarrotes\\Abarrotes\\wwwroot\\Images\\taza2.jpg",

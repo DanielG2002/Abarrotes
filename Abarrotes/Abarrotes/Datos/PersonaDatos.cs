@@ -30,7 +30,9 @@ namespace Abarrotes.Datos
                     while (reader.Read())
                     {
                         var producto = new AbarrotesModels()
-                        {
+                        { 
+
+                        ID = Convert.ToInt32(reader["id_producto"]),
                             Producto = reader["nombre_producto"].ToString(),
                             Descripcion = reader["descripcion"].ToString(),
                             Marca = reader["marca"].ToString(),
